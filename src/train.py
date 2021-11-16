@@ -375,7 +375,7 @@ def step(data_loader, model, criterion: EDiceLoss, metric, deep_supervision, opt
     # Setup
     batch_time = AverageMeter('Time', ':6.3f')
     data_time = AverageMeter('Data', ':6.3f')
-    losses = AverageMeter('Loss', ':.4e')
+    losses = AverageMeter('Loss', ':.3f') #it was 4e
     # TODO monitor teacher loss
     mode = "train" if model.training else "val"
     batch_per_epoch = len(data_loader)
