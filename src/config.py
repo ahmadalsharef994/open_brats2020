@@ -2,9 +2,9 @@ import os
 from pathlib import Path
 
 user = "YOU"
-BRATS_TRAIN_FOLDERS = "/content/drive/MyDrive/BraTS2020/TRAIN"
-BRATS_VAL_FOLDER = "/content/drive/MyDrive/BraTS2020/VAL"
-BRATS_TEST_FOLDER = "/content/drive/MyDrive/BraTS2020/TEST"
+BRATS_TRAIN_FOLDERS = "/content/BraTS2020/TRAIN"
+BRATS_VAL_FOLDER = "/content/BraTS2020/VAL"
+BRATS_TEST_FOLDER = "/content/BraTS2020/TEST"
 
 
 def get_brats_folder(on="val"):
