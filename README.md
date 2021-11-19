@@ -94,3 +94,8 @@ optional arguments:
 This script can take multiple models (specify multiple yaml config files), even when trained 
 with different image normalization techniques (minmax or zscore);
 and will automatically merge their prediction (by averaging). 
+
+
+
+Extra Notes:
+By default, the training doesn't do data augmentation but does normalization (min-max)
